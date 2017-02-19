@@ -1,0 +1,65 @@
+body {
+
+}
+
+/* Header things */
+
+.header {
+	margin-top: 30px;
+	height: 16vh;
+	max-height: 133px;
+	min-height: 90px;
+}
+
+.line {
+	border-bottom-style: solid;
+	border-bottom-color: #7d97ad;
+}
+
+.logo-holder {
+	height: 100%;
+	padding: 8pt 0 25pt 0;
+}
+
+.logo-holder .responsive-img {
+	height: 100%;
+}
+
+.header .col h5 {
+	line-height: 85%;
+	color: #2d3c49;
+	width: 100%;
+	font-size: 25pt;
+	font-weight: 200;
+}
+
+.header .col h5 small {
+	font-size: 15pt;
+	font-weight: 500;
+}
+
+.header .col.s4 {
+	height: 100%;
+}
+
+.header .col.s8 {
+	height: 100%;
+}
+
+/* text styling */
+
+.title {
+	color: #7d97ad;
+}
+
+.article-title {
+	font-size: 23pt;
+	color: #2d3c49;
+}
+
+.article {
+	width: 100%;
+	color: #2d3c49;
+	font-size: 10pt;
+	overflow: hidden;
+}
