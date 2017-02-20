@@ -13,49 +13,59 @@
 		<title>My responsive site</title>
 
 		<link rel="stylesheet" href="css/materialize.min.css">
-		<script src="js/jquery-2.1.1.min.js"></script>
-		<script src="js/materialize.min.js"></script>
+		<script src="js/jquery-2.1.1.min.js" defer></script>
+		<script src="js/materialize.min.js" defer></script>
 		<link rel="stylesheet" href="css/main.css" />
 
 	</head>
 	<body>
 		<div class="container">
-			<div class="row header">
-				<div class="col s4 valign-wrapper">
-					<div class="logo-holder valign"><img class="responsive-img" src="./udacity.svg"></div>
+			<header>
+				<div class="row header">
+					<div class="col s4 valign-wrapper">
+						<div class="logo-holder valign"><img class="responsive-img" src="./udacity.svg" alt="Udacity Logo"></div>
+					</div>
+					<div class="col s8 valign-wrapper">
+						<h5 class="valign right-align">JANE DOETTE<br><small>FRONT END NINJA</small></h5>
+					</div>
+					<div class="col s12">
+						<div class="line"></div>
+					</div>
 				</div>
-				<div class="col s8 valign-wrapper">
-					<h5 class="valign right-align">JANE DOETTE</br><small>FRONT END NINJA</small></h5>
+			</header>
+			<section id="main">
+				<div class="row">
+					<div class="col s12">
+						<img class="responsive-img" src="./images/html-hi.jpg" alt="Close up of HTML code, header image" sizes="80vw" srcset="./images/html-m-600w.jpg 600w, ./images/html-hi-x2-2048w.jpg 2048w">
+					</div>
 				</div>
-				<div class="col s12">
-					<div class="line"></div>
+				<div class="row">
+					<div class="col s12">
+						<h4 class="title">Featured Work</h4>
+					</div>
+					<article>
+						<div class="col s12 m4">
+							<img class="responsive-img" alt="Close up of iphone screen" src="./images/app.jpg">
+							<div class="center-align article-title">APPIFY</div>
+							<p class="center-align article">https://udacity.com/udacity/Appify</p>
+						</div>
+					</article>
+					<article>
+						<div class="col s12 m4">
+							<img class="responsive-img" alt="Sunflower" src="./images/sunflower.jpg">
+							<div class="center-align article-title">SUNFLOWER</div>
+							<p class="center-align article">https://udacity.com/udacity/Sunflower</p>
+						</div>
+					</article>
+					<article>
+						<div class="col s12 m4">
+							<img class="responsive-img" alt="Image of blurred out lights" src="./images/bokeh.jpg">
+							<div class="center-align article-title">BOKEH</div>
+							<p class="center-align article">https://udacity.com/udacity/Bokeh</p>
+						</div>
+					</article>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col s12">
-					<img class="responsive-img" src="./images/html-hi.jpg" srcset="./images/html-m-600w.jpg 600w, ./images/html-hi-x2-2048w.jpg 2048w">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col s12">
-					<h4 class="title">Featured Work</h4>
-				</div>
-				<div class="col s12 m4">
-					<img class="responsive-img" src="./images/app.jpg">
-					<div class="center-align article-title">APPIFY</div>
-					<div class="center-align article">https://udacity.com/udacity/Appify</div>
-				</div>
-				<div class="col s12 m4">
-					<img class="responsive-img" src="./images/sunflower.jpg">
-					<div class="center-align article-title">SUNFLOWER</div>
-					<div class="center-align article">https://udacity.com/udacity/Sunflower</div>
-				</div>
-				<div class="col s12 m4">
-					<img class="responsive-img" src="./images/bokeh.jpg">
-					<div class="center-align article-title">BOKEH</div>
-					<div class="center-align article">https://udacity.com/udacity/Bokeh</div>
-				</div>
-			</div>
+			</section>
 		</div>
 
 	</body>

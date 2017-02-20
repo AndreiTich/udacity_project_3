@@ -1,7 +1,3 @@
-body {
-
-}
-
 /* Header things */
 
 .header {
@@ -58,6 +54,7 @@ body {
 }
 
 .article {
+	margin-top: 0;
 	width: 100%;
 	color: #2d3c49;
 	font-size: 10pt;
